@@ -1,11 +1,19 @@
 library(deSolve) #import library deSolve
+
+#Initiate the initial values:
 st <- c(y1 = 1, dy1 = 0) #J(0) = 1 and J'(0) = 0 (Bessel order 0)
-BesselFunction <- function(t,y,p){ #(t^2)y'' + ty' + (t^2 + k^2)y = 0, k = 0
-  dy1 <- y[2] #dy = y2
-  dy2 <- -((t^2)*y[1]+(t*y[2]))/(t^2) #Isolate y2'
+
+#Insert the Bessel function (order 0): (t^2)y'' + ty' + (t^2 - k^2)y = 0, k = 0
+BesselFunction <- function(t,y,p){ 
+  dy1 <- y[2] #y' = y[2]
+  dy2 <- -((t^2)*y[1]+(t*y[2]))/(t^2) #Isolate y[2]'
   list(c(dy1,dy2))
 }
+
+#The time start at 0.01 to not cause problems dividing by 0.
 times <- seq(from = 0.01, to = 50, by = 0.01)
+
+#Using the function ode from deSolve to solve the problem
 out <- ode(y = st, func = BesselFunction, times = times)
 
 #Plot the function.
