@@ -24,3 +24,5 @@ plot(times, out[,"y1"], type = "l", xlab = "Time", ylab = "Y", lwd = 2,
 head(out, n = 10)
 #To view the last 10 iterations:
 tail(out, n = 10)
+#To view between 100 iterations and 120 iterations:
+out[100:120, c("time", "y1")]
