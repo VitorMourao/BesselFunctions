@@ -5,8 +5,8 @@ A Bessel Equation is in the form:
 
 ![Bessel Equation](https://github.com/VitorMourao/BesselFunctions/blob/master/images/BesselEquation.gif )
 
-We call "Bessel Function of the first kind" (J(t)) one of the solutions to this equation.
-For each k in the equation we have a different Bessel Equation denominated "Bessel Function of the first kind and order k" (J_{k}(t))
+We call _Bessel Function of the first kind_ one of the solutions to this equation.
+For each **k** in the equation we have a different Bessel Equation denominated _Bessel Function of the first kind and order k_ 
 
 About the repository:
 I coded the Bessel function of order 0 which is the only one that has value 1 at t = 0.
