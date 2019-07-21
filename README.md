@@ -1,4 +1,5 @@
 # BesselFunctions
+Bessel's equation arises when finding separable solutions to Laplace's equation and the Helmholtz equation in cylindrical or spherical coordinates. Bessel functions are therefore especially important for many problems of wave propagation and static potentials.
 
 A Bessel Equation is in the form:
 
