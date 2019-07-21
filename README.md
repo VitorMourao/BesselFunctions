@@ -9,7 +9,7 @@ We call _Bessel Function of the first kind_ one of the solutions to this equatio
 For each **k** in the equation we have a different Bessel Equation whose solution is called _Bessel Function of the first kind and order k_: ![ Bessel Function](https://github.com/VitorMourao/BesselFunctions/blob/master/images/Besselk.gif)
 
 About the code:
-The implementation is in R language using the library [_deSolve_ ](http://desolve.r-forge.r-project.org/). Since the _ode_ function in deSolve returns a list whose first element is a vector containing the derivatives of y with respect to time, and whose next elements are global values that are required at each point in _times_ we need to separate the derivates, then we have:
+The implementation is in R language using the library [_deSolve_ ](http://desolve.r-forge.r-project.org/). Since the _ode_ function in deSolve returns a list whose first element is a vector containing the derivatives of y with respect to time, and whose next elements are global values that are required at each point in _times_ we need to separate the derivatives, then we have:
 
 ![Bessel Equation](https://github.com/VitorMourao/BesselFunctions/blob/master/images/Eqnew.gif)
 
