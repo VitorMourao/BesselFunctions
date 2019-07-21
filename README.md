@@ -5,7 +5,7 @@ A Bessel Equation is in the form:
 
 ![Bessel Equation](https://github.com/VitorMourao/BesselFunctions/blob/master/images/BesselEquation.gif )
 
-We call _Bessel Function of the first kind_ one of the solutions to this equation, the term “first kind” reflects the fact that the Bessel function includes the functions that, for nonnegative integer k, are regular at x = 0.
+We call [_Bessel Function of the first kind_](http://mathworld.wolfram.com/BesselFunctionoftheFirstKind.html) one of the solutions to this equation, the term “first kind” reflects the fact that the Bessel function includes the functions that, for nonnegative integer k, are regular at x = 0.
 For each **k** in the equation we have a different Bessel Equation whose solution is called _Bessel Function of the first kind and order k_: ![ Bessel Function](https://github.com/VitorMourao/BesselFunctions/blob/master/images/Besselk.gif)
 
 About the code:
