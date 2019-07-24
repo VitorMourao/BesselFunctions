@@ -34,4 +34,4 @@ First we determine our initial values and the order of our Bessel equation, in o
 Then we need to create our function using the fact that we need to create a list of ordinary differential equations of first order:
 
 
-After that we create our vector of times (x) and start it at 0.01 because if we start at 0 our program will try to divide by zero, and will occour a error.
+After that we create our vector of times (x) and start it at 0.01 because if we start at 0 our program will try to divide by zero and will occur an error.
