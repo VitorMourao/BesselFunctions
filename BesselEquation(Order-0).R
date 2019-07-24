@@ -37,3 +37,5 @@ Jzero[100:120]
 plot(times, out[,"y1"], type = "l", xlab = "x", ylab = "J(x)", lwd = 3,
      main = "Bessel Function", col = "black")
 lines(times, Jzero, type = "l", col = "red", lwd = 1.5)
+legend("topright", legend=c("Implemented", "Base"),
+       col=c("black", "red"), lty=1:1, lwd=3:1.5, cex=0.8)
