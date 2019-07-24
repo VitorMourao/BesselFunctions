@@ -27,11 +27,14 @@ Isolating the first order derivative:
 
 _With these two derivatives of first order we have our system and just need to implement on our code._
 
-First we determine our initial values and the order of our Bessel equation, in our example we will use a Bessel Equation of order 0, but commented are the initial values for a Bessel equation of order 1 (dont forget to change k to 1 in this case):
+First we determine our initial values and the order of our Bessel equation, in our example we will use a Bessel Equation of order 0, but if we want a Bessel equation of order 1 (dont forget to change k to 1 in this case) we have our initial values in a comment:
 
-
+![Initial Values](https://github.com/VitorMourao/BesselFunctions/blob/master/images/stimages.png)
 
 Then we need to create our function using the fact that we need to create a list of ordinary differential equations of first order:
 
+![Bessel Function in R](https://github.com/VitorMourao/BesselFunctions/blob/master/images/Besselfunction1.png)
 
 After that we create our vector of times (x) and start it at 0.01 because if we start at 0 our program will try to divide by zero and will occur an error.
+
+![Times/Ode](https://github.com/VitorMourao/BesselFunctions/blob/master/images/timesode.png)
