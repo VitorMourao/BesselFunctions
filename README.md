@@ -44,3 +44,11 @@ Our implementation of the Bessel Equation is done, but how do we know that our r
 ![Comparison](https://github.com/VitorMourao/BesselFunctions/blob/master/images/comparisonBessel.png)
 
 And at the end we can plot our implemented Bessel equation and the BesselJ function from R:
+
+![Ploting](https://github.com/VitorMourao/BesselFunctions/blob/master/images/plotB.png)
+
+And finally we have the results:
+
+![Graph](https://github.com/VitorMourao/BesselFunctions/blob/master/images/Rplot.png)
+
+In the end we see that our implemented model have _in general_ the same result as the base function BesselJ.
