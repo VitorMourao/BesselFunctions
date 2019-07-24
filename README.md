@@ -38,3 +38,9 @@ Then we need to create our function using the fact that we need to create a list
 After that we create our vector of times (x) and start it at 0.01 because if we start at 0 our program will try to divide by zero and will occur an error.
 
 ![Times/Ode](https://github.com/VitorMourao/BesselFunctions/blob/master/images/timesode.png)
+
+Our implementation of the Bessel Equation is done, but how do we know that our result is good? In R we have a function called [_BesselJ_](https://stat.ethz.ch/R-manual/R-devel/library/base/html/Bessel.html) that permit us to make a comparison. Using this function we can compare values (head,tail, or specific values):
+
+![Comparison](https://github.com/VitorMourao/BesselFunctions/blob/master/images/comparisonBessel.png)
+
+And at the end we can plot our implemented Bessel equation and the BesselJ function from R:
