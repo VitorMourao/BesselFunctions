@@ -25,4 +25,13 @@ Isolating the first order derivative:
 
 ![Isolating the major derivative](https://github.com/VitorMourao/BesselFunctions/blob/master/images/y2lin.gif)
 
-With these two derivatives of first order we have our system and just need to implement on our code....
+_With these two derivatives of first order we have our system and just need to implement on our code._
+
+First we determine our initial values and the order of our Bessel equation, in our example we will use a Bessel Equation of order 0, but commented are the initial values for a Bessel equation of order 1 (dont forget to change k to 1 in this case):
+
+
+
+Then we need to create our function using the fact that we need to create a list of ordinary differential equations of first order:
+
+
+After that we create our vector of times (x) and start it at 0.01 because if we start at 0 our program will try to divide by zero, and will occour a error.
