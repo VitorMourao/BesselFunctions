@@ -20,15 +20,18 @@ times <- seq(from = 0.01, to = 50, by = 0.01)
 #Using the function ode from deSolve to solve the problem
 out <- ode(y = st, func = BesselFunction, times = times)
 
-#To view the first 10 iterations:
-head(out, n = 10)
-#To view the last 10 iterations:
-tail(out, n = 10)
-#To view between 100 iterations and 120 iterations:
-out[100:120, c("time", "y1")]
-
 #Bessel function of the first kind in the library (Base) in R
 Jzero <- besselJ(times, k)
+
+#To view the first 10 iterations:
+head(out, n = 10)
+head(Jzero, n = 10)
+#To view the last 10 iterations:
+tail(out, n = 10)
+tail(Jzero, n = 10)
+#To view between 100 iterations and 120 iterations:
+out[100:120, c("time", "y1")]
+Jzero[100:120]
 
 #Plot the function.
 plot(times, out[,"y1"], type = "l", xlab = "x", ylab = "J(x)", lwd = 3,
