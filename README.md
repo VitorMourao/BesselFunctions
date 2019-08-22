@@ -54,3 +54,5 @@ And finally we have the results:
 ![Graph](https://github.com/VitorMourao/BesselFunctions/blob/master/images/Rplot.png)
 
 In the end we see that our implemented model have _in general_ the same result as the base function BesselJ.
+
+_This text was inspired by examples from the book "Solving Differential Equations in R (Use R!)"_
